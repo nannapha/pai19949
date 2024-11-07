@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPORT</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            display: inline-block;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .main-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .brand {
+            background-color: white;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 25%;
+            text-align: center;
+        }
+        .brand img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>SPORT</h1>
+</header>
+
+<nav>
+    <a href="#brand1">ฟุตบอล (Football / Soccer)</a>
+    <a href="#brand2">บาสเกตบอล (Basketball)</a>
+    <a href="#brand3">วอลเลย์บอล (Volleyball)</a>
+    <a href="#brand4">เทนนิส (Tennis)</a>
+    <a href="#brand5">แบดมินตัน (Badminton)</a>
+    <a href="#brand6">กอล์ฟ (Golf)</a>
+    <a href="#brand7">มวย (Boxing)</a>
+    <a href="#brand8">ว่ายน้ำ (Swimming)</a>
+    <a href="#brand9">ยิมนาสติก (Gymnastics)</a>
+    <a href="#brand10">รักบี้ (Rugby)</a>
+</nav>
+
+<div class="main-content">
+    <div id="brand1" class="brand">
+        <h2>ฟุตบอล (Football / Soccer)</h2>
+        <img src="img/1.jpg">
+        <p>กีฬาเกี่ยวกับการเล่นบอลที่มีทีมละ 11 คน โดยมีเป้าหมายทำประตูให้ได้มากที่สุดในระยะเวลาที่กำหนด</p>
+    </div>
+
+    <div id="brand2" class="brand">
+        <h2>บาสเกตบอล (Basketball)</h2>
+        <img src="img/2.jpg">
+        <p>การแข่งขันระหว่างสองทีมที่มีผู้เล่น 5 คนต่อทีม โดยการโยนบอลเข้าไปในห่วงที่ตั้งอยู่สูง</p>
+    </div>
+
+    <div id="brand3" class="brand">
+        <h2>วอลเลย์บอล (Volleyball)</h2>
+        <img src="img/3.jpg">
+        <p>กีฬาที่เล่นระหว่างสองทีม โดยมีการตีกลับลูกบอลข้ามเน็ตไปยังฝั่งตรงข้าม โดยห้ามให้บอลตกพื้น</p>
+    </div>
+
+    <div id="brand4" class="brand">
+        <h2>เทนนิส (Tennis)</h2>
+        <img src="img/4.jpg">
+        <p>กีฬาใช้ไม้ตีเพื่อส่งลูกบอลไปข้ามเน็ตและต้องไม่ให้ฝ่ายตรงข้ามรับลูกได้</p>
+    </div>
+
+    <div id="brand5" class="brand">
+        <h2>แบดมินตัน (Badminton)</h2>
+        <img src="img/5.jpg">
+        <p>กีฬาใช้ไม้ตีลูกขนนก โดยมีวัตถุประสงค์คือทำให้ลูกขนนกตกลงพื้นฝ่ายตรงข้าม</p>
+    </div>
+
+    <div id="brand6" class="brand">
+        <h2>กอล์ฟ (Golf)</h2>
+        <img src="img/6.jpg">
+        <p>การตีลูกกอล์ฟเข้าไปในหลุม โดยใช้ไม้กอล์ฟให้ลูกเข้าไปในหลุมในจำนวนครั้งที่น้อยที่สุด</p>
+    </div>
+
+    <div id="brand7" class="brand">
+        <h2>มวย (Boxing)</h2>
+        <img src="img/7.jpg">
+        <p>การต่อสู้ระหว่างคู่ต่อสู้ที่มีการใช้มือในการโจมตี และมีการป้องกัน</p>
+    </div>
+
+    <div id="brand8" class="brand">
+        <h2>ว่ายน้ำ (Swimming)</h2>
+        <img src="img/8.jpg">
+        <p>การแข่งขันว่ายน้ำในสระ โดยมีหลายประเภท เช่น ฟรีสไตล์, กบ, ผีเสื้อ, และกรรเชียง</p>
+    </div>
+
+    <div id="brand9" class="brand">
+        <h2>ยิมนาสติก (Gymnastics)</h2>
+        <img src="img/9.jpg">
+        <p>กีฬาที่ประกอบไปด้วยการแสดงท่าทางที่ต้องใช้ความยืดหยุ่น ความแข็งแกร่ง และความสมดุล</p>
+    </div>
+
+    <div id="brand10" class="brand">
+        <h2>รักบี้ (Rugby)</h2>
+        <img src="img/10.jpg">
+        <p>กีฬาเป็นทีมที่มีการใช้บอลทรงไข่ โดยการวิ่งและส่งบอลเพื่อทำคะแนน</p>
+    </div>
+</div>
+
+<footer>
+    <p>SPORT | ติดต่อ: Nannaphatpai4@Gamil.com</p>
+</footer>
+
+</body>
+</html>
